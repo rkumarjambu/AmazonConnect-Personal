@@ -1,0 +1,1013 @@
+{
+  "Version": "2019-10-30",
+  "StartAction": "0b407732-4e0b-4edc-b637-e75680225ec6",
+  "Metadata": {
+    "entryPointPosition": {
+      "x": -4.8,
+      "y": 27.2
+    },
+    "ActionMetadata": {
+      "f48561e5-3d02-4380-8031-8139cee399d2": {
+        "position": {
+          "x": 4518.4,
+          "y": 1330.4
+        }
+      },
+      "58ecb14e-0970-4d5b-9d4c-f2cb7d23bf12": {
+        "position": {
+          "x": 5324.8,
+          "y": 687.2
+        }
+      },
+      "9155d755-b5fb-4c17-a560-8a9d1095eedf": {
+        "position": {
+          "x": 5061.6,
+          "y": 494.4
+        }
+      },
+      "b5a7030b-23c9-4570-80d2-a9ec4c17e806": {
+        "position": {
+          "x": 5326.4,
+          "y": 476.8
+        }
+      },
+      "0af94805-014a-4fb1-8a35-070fa35e2e22": {
+        "position": {
+          "x": 5920,
+          "y": 239.2
+        }
+      },
+      "9ec9348c-c517-403f-935b-9c3bb8e35c1b": {
+        "position": {
+          "x": 5604.8,
+          "y": 243.2
+        }
+      },
+      "c69c6e6e-8707-42e5-b8bc-d79d64385234": {
+        "position": {
+          "x": 4933.6,
+          "y": 33.6
+        }
+      },
+      "220a5a3b-1792-40dd-9c08-08b6bc122541": {
+        "position": {
+          "x": 4780.8,
+          "y": 484.8
+        },
+        "conditionMetadata": [],
+        "countryCodePrefix": "+1"
+      },
+      "cad6d3f7-e39e-426f-bf32-b99aa549a34b": {
+        "position": {
+          "x": 4094.4,
+          "y": 1344
+        }
+      },
+      "da46c982-772f-43be-a034-8402e4d7afea": {
+        "position": {
+          "x": 4972.8,
+          "y": 1185.6
+        }
+      },
+      "dbb742ec-5005-403b-896b-30b7cbf63732": {
+        "position": {
+          "x": 2031.2,
+          "y": 1002.4
+        },
+        "parameters": {
+          "EventHooks": {
+            "CustomerQueue": {
+              "displayName": "Default customer queue"
+            }
+          }
+        },
+        "contactFlow": {
+          "text": "Default customer queue",
+          "id": "arn:aws:connect:us-east-1:021891593114:instance/38d5dde2-ec9c-4391-9627-466fcf4bb1ff/contact-flow/f115b52f-8776-44d4-9b37-d4bfa8703af6"
+        },
+        "customerOrAgent": true
+      },
+      "3c52961e-581a-42b5-87b9-41c7fee5dbf9": {
+        "position": {
+          "x": 2782.4,
+          "y": 167.2
+        },
+        "conditions": [
+          {
+            "Condition": {
+              "Operands": [
+                {
+                  "unit": 1000
+                }
+              ]
+            }
+          }
+        ],
+        "conditionMetadata": [
+          {
+            "attribute": {
+              "name": "Time in Queue",
+              "value": "Time in Queue",
+              "internalValue": "CheckQueueTime"
+            },
+            "operator": {
+              "name": "Is less than",
+              "value": "LessThan",
+              "shortDisplay": "<"
+            },
+            "value": "300",
+            "time": "sec."
+          }
+        ]
+      },
+      "5cfb3fa1-78a7-4133-b553-ca7198181192": {
+        "position": {
+          "x": 1699.2,
+          "y": 910.4
+        },
+        "parameters": {
+          "QueueId": {
+            "displayName": "GeneralAssistance"
+          }
+        },
+        "queue": {
+          "text": "GeneralAssistance"
+        }
+      },
+      "43d31362-47a0-4897-8592-32ffc70b3b3c": {
+        "position": {
+          "x": 5977.6,
+          "y": 446.4
+        }
+      },
+      "15445378-0358-427c-8e3e-d4693a07cf8d": {
+        "position": {
+          "x": 3117.6,
+          "y": 407.2
+        }
+      },
+      "67f2d6ed-c5bc-42cf-9011-b0589ef14103": {
+        "position": {
+          "x": 4491.2,
+          "y": 33.6
+        }
+      },
+      "84e7e723-838f-4012-bafe-ffbda3b81d51": {
+        "position": {
+          "x": 3080.8,
+          "y": 179.2
+        }
+      },
+      "35d19e2a-432e-41a6-838d-bb9949910869": {
+        "position": {
+          "x": 3249.6,
+          "y": 763.2
+        },
+        "conditionMetadata": [
+          {
+            "id": "00569e9b-f985-468f-99a8-9d84c10a5ba2",
+            "value": "2"
+          },
+          {
+            "id": "45a6f9fc-52f9-4bc4-a373-9a4532a69aec",
+            "value": "1"
+          }
+        ]
+      },
+      "05c9b198-6508-4fb2-af45-8526c535a05c": {
+        "position": {
+          "x": 4047.2,
+          "y": 32.8
+        },
+        "conditions": [],
+        "conditionMetadata": [
+          {
+            "id": "88bb9bc0-21ed-4557-b80b-35838c66055b",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "CHAT"
+          }
+        ]
+      },
+      "pushCustomerData": {
+        "position": {
+          "x": 4264.8,
+          "y": 297.6
+        },
+        "isFriendlyName": true,
+        "parameters": {
+          "LambdaFunctionARN": {
+            "displayName": "pushInteractionData"
+          }
+        },
+        "dynamicMetadata": {}
+      },
+      "1bde52fe-96fa-4621-bb22-8a1169ec148a": {
+        "position": {
+          "x": -246.4,
+          "y": 1022.4
+        }
+      },
+      "28c8a75d-7e4e-4202-8e0c-8a279cc3c23b": {
+        "position": {
+          "x": 45.6,
+          "y": 1227.2
+        }
+      },
+      "0b407732-4e0b-4edc-b637-e75680225ec6": {
+        "position": {
+          "x": -659.2,
+          "y": 496.8
+        },
+        "parameters": {
+          "LambdaFunctionARN": {
+            "displayName": "readLastInteraction"
+          }
+        },
+        "dynamicMetadata": {}
+      },
+      "IntelligentGreeting2": {
+        "position": {
+          "x": 761.6,
+          "y": 587.2
+        },
+        "isFriendlyName": true
+      },
+      "79e84401-bf52-426a-916f-690a29aac34b": {
+        "position": {
+          "x": -46.4,
+          "y": 387.2
+        },
+        "parameters": {
+          "Attributes": {
+            "PreviousIntent": {
+              "useDynamic": true
+            },
+            "LastCalledDate": {
+              "useDynamic": true
+            }
+          }
+        },
+        "dynamicParams": [
+          "PreviousIntent",
+          "LastCalledDate"
+        ]
+      },
+      "a8720045-fcae-4dae-af68-426d4a9faae8": {
+        "position": {
+          "x": 461.6,
+          "y": 1265.6
+        }
+      },
+      "e7cb0438-f083-47db-89a0-187b089c68de": {
+        "position": {
+          "x": 361.6,
+          "y": 327.2
+        },
+        "conditions": [],
+        "conditionMetadata": [
+          {
+            "id": "acbb920b-87ce-41bb-aad2-d6c1df4d896f",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "Null"
+          }
+        ]
+      },
+      "8ed9b814-e483-4ec5-86cf-37a174a0e9d3": {
+        "position": {
+          "x": 1136,
+          "y": 793.6
+        },
+        "conditions": [],
+        "conditionMetadata": [
+          {
+            "id": "83d8455e-7bd1-4562-a1c2-87a36607f640",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "Transportation/MotorVehicles"
+          },
+          {
+            "id": "96d0b02c-1515-4f4e-8713-830ccf22ba12",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "Employment/Labor"
+          },
+          {
+            "id": "5b368968-6b80-4980-bab3-0c3158e014ac",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "Health/SocialServices/Welfare"
+          },
+          {
+            "id": "0f2d1004-47b4-4c53-8588-50e7a0c560c6",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "GovernmentOperations/HumanResources/GovernmentRevenue"
+          },
+          {
+            "id": "328cb7ec-625f-439e-83d1-a2457ff8bf9c",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "ConsumerServices/Housing"
+          },
+          {
+            "id": "76e7be1a-4307-4855-9811-fe255012f60e",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "PropertyElectedOfficials"
+          },
+          {
+            "id": "195d38d5-e1df-44c6-b17b-b906713700e4",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "Parks/NationalResources/Environment"
+          },
+          {
+            "id": "6604cd56-6e62-4973-98db-0591f1397901",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "GenerealAssitance"
+          }
+        ]
+      },
+      "635da8d1-8e8f-41cf-9a09-f75ef5934019": {
+        "position": {
+          "x": 1662.4,
+          "y": 208
+        }
+      },
+      "IntelligentGreeting": {
+        "position": {
+          "x": 1305.6,
+          "y": 222.4
+        },
+        "isFriendlyName": true
+      }
+    },
+    "Annotations": [
+      {
+        "type": "default",
+        "id": "f6034abb-b42c-404d-a495-7f41fba482f8",
+        "content": "I would further define at this point in the flow, for the sake of this project I've simply routed all to general assistance for demo purposes.",
+        "actionId": "",
+        "isFolded": false,
+        "position": {
+          "x": 1667,
+          "y": 1573
+        },
+        "size": {
+          "height": 295,
+          "width": 300
+        }
+      },
+      {
+        "type": "default",
+        "id": "7af7c9a4-ed99-47ee-a80a-12df4370fc40",
+        "content": "If == Null, no previous interaction -> new customer.\n\nElse: Existing customer, We know why they called ;and when they called last. \n\nIf empty, error",
+        "actionId": "",
+        "isFolded": false,
+        "position": {
+          "x": 861,
+          "y": 87
+        },
+        "size": {
+          "height": 295,
+          "width": 300
+        }
+      }
+    ],
+    "name": "Queue configurations flow",
+    "description": "Puts a customer in queue and gives them the option to be first in queue, last in queue or to be called back.",
+    "type": "contactFlow",
+    "status": "PUBLISHED",
+    "hash": {}
+  },
+  "Actions": [
+    {
+      "Parameters": {},
+      "Identifier": "f48561e5-3d02-4380-8031-8139cee399d2",
+      "Type": "DisconnectParticipant",
+      "Transitions": {}
+    },
+    {
+      "Parameters": {
+        "Text": "The number entered is invalid. Please try again."
+      },
+      "Identifier": "58ecb14e-0970-4d5b-9d4c-f2cb7d23bf12",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "220a5a3b-1792-40dd-9c08-08b6bc122541"
+      }
+    },
+    {
+      "Parameters": {
+        "CallbackNumber": "$.StoredCustomerInput"
+      },
+      "Identifier": "9155d755-b5fb-4c17-a560-8a9d1095eedf",
+      "Type": "UpdateContactCallbackNumber",
+      "Transitions": {
+        "NextAction": "b5a7030b-23c9-4570-80d2-a9ec4c17e806",
+        "Errors": [
+          {
+            "NextAction": "58ecb14e-0970-4d5b-9d4c-f2cb7d23bf12",
+            "ErrorType": "InvalidCallbackNumber"
+          },
+          {
+            "NextAction": "58ecb14e-0970-4d5b-9d4c-f2cb7d23bf12",
+            "ErrorType": "CallbackNumberNotDialable"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "You will be called back when the next agent is available."
+      },
+      "Identifier": "b5a7030b-23c9-4570-80d2-a9ec4c17e806",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "9ec9348c-c517-403f-935b-9c3bb8e35c1b"
+      }
+    },
+    {
+      "Parameters": {},
+      "Identifier": "0af94805-014a-4fb1-8a35-070fa35e2e22",
+      "Type": "DisconnectParticipant",
+      "Transitions": {}
+    },
+    {
+      "Parameters": {
+        "RetryDelaySeconds": "600",
+        "InitialCallDelaySeconds": "5",
+        "MaximumConnectionAttempts": "1"
+      },
+      "Identifier": "9ec9348c-c517-403f-935b-9c3bb8e35c1b",
+      "Type": "CreateCallbackContact",
+      "Transitions": {
+        "NextAction": "0af94805-014a-4fb1-8a35-070fa35e2e22",
+        "Errors": [
+          {
+            "NextAction": "43d31362-47a0-4897-8592-32ffc70b3b3c",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {},
+      "Identifier": "c69c6e6e-8707-42e5-b8bc-d79d64385234",
+      "Type": "TransferContactToQueue",
+      "Transitions": {
+        "NextAction": "43d31362-47a0-4897-8592-32ffc70b3b3c",
+        "Errors": [
+          {
+            "NextAction": "43d31362-47a0-4897-8592-32ffc70b3b3c",
+            "ErrorType": "QueueAtCapacity"
+          },
+          {
+            "NextAction": "43d31362-47a0-4897-8592-32ffc70b3b3c",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "StoreInput": "True",
+        "InputTimeLimitSeconds": "6",
+        "Text": "Enter the number you would like to be called back at.",
+        "InputValidation": {
+          "PhoneNumberValidation": {
+            "NumberFormat": "Local",
+            "CountryCode": "US"
+          }
+        }
+      },
+      "Identifier": "220a5a3b-1792-40dd-9c08-08b6bc122541",
+      "Type": "GetParticipantInput",
+      "Transitions": {
+        "NextAction": "9155d755-b5fb-4c17-a560-8a9d1095eedf",
+        "Errors": [
+          {
+            "NextAction": "43d31362-47a0-4897-8592-32ffc70b3b3c",
+            "ErrorType": "NoMatchingError"
+          },
+          {
+            "NextAction": "58ecb14e-0970-4d5b-9d4c-f2cb7d23bf12",
+            "ErrorType": "InvalidPhoneNumber"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "We are not able to take your call right now. Goodbye."
+      },
+      "Identifier": "cad6d3f7-e39e-426f-bf32-b99aa549a34b",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "f48561e5-3d02-4380-8031-8139cee399d2"
+      }
+    },
+    {
+      "Parameters": {},
+      "Identifier": "da46c982-772f-43be-a034-8402e4d7afea",
+      "Type": "TransferContactToQueue",
+      "Transitions": {
+        "NextAction": "43d31362-47a0-4897-8592-32ffc70b3b3c",
+        "Errors": [
+          {
+            "NextAction": "43d31362-47a0-4897-8592-32ffc70b3b3c",
+            "ErrorType": "QueueAtCapacity"
+          },
+          {
+            "NextAction": "43d31362-47a0-4897-8592-32ffc70b3b3c",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "EventHooks": {
+          "CustomerQueue": "arn:aws:connect:us-east-1:021891593114:instance/38d5dde2-ec9c-4391-9627-466fcf4bb1ff/contact-flow/f115b52f-8776-44d4-9b37-d4bfa8703af6"
+        }
+      },
+      "Identifier": "dbb742ec-5005-403b-896b-30b7cbf63732",
+      "Type": "UpdateContactEventHooks",
+      "Transitions": {
+        "NextAction": "3c52961e-581a-42b5-87b9-41c7fee5dbf9",
+        "Errors": [
+          {
+            "NextAction": "43d31362-47a0-4897-8592-32ffc70b3b3c",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "MetricType": "OldestContactInQueueAgeSeconds"
+      },
+      "Identifier": "3c52961e-581a-42b5-87b9-41c7fee5dbf9",
+      "Type": "CheckMetricData",
+      "Transitions": {
+        "NextAction": "cad6d3f7-e39e-426f-bf32-b99aa549a34b",
+        "Conditions": [
+          {
+            "NextAction": "84e7e723-838f-4012-bafe-ffbda3b81d51",
+            "Condition": {
+              "Operator": "NumberLessThan",
+              "Operands": [
+                "300000"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "15445378-0358-427c-8e3e-d4693a07cf8d",
+            "ErrorType": "NoMatchingCondition"
+          },
+          {
+            "NextAction": "cad6d3f7-e39e-426f-bf32-b99aa549a34b",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "QueueId": "arn:aws:connect:us-east-1:021891593114:instance/38d5dde2-ec9c-4391-9627-466fcf4bb1ff/queue/c928d436-3a04-4544-bac8-384b5b4d74b2"
+      },
+      "Identifier": "5cfb3fa1-78a7-4133-b553-ca7198181192",
+      "Type": "UpdateContactTargetQueue",
+      "Transitions": {
+        "NextAction": "dbb742ec-5005-403b-896b-30b7cbf63732",
+        "Errors": [
+          {
+            "NextAction": "cad6d3f7-e39e-426f-bf32-b99aa549a34b",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "Something went wrong. Goodbye."
+      },
+      "Identifier": "43d31362-47a0-4897-8592-32ffc70b3b3c",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "0af94805-014a-4fb1-8a35-070fa35e2e22"
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "The time in queue is more than 5 minutes."
+      },
+      "Identifier": "15445378-0358-427c-8e3e-d4693a07cf8d",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "05c9b198-6508-4fb2-af45-8526c535a05c"
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "You are now being placed in queue to chat with an agent."
+      },
+      "Identifier": "67f2d6ed-c5bc-42cf-9011-b0589ef14103",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "c69c6e6e-8707-42e5-b8bc-d79d64385234"
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "The time in queue is less than 5 minutes."
+      },
+      "Identifier": "84e7e723-838f-4012-bafe-ffbda3b81d51",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "05c9b198-6508-4fb2-af45-8526c535a05c"
+      }
+    },
+    {
+      "Parameters": {
+        "StoreInput": "False",
+        "InputTimeLimitSeconds": "5",
+        "Text": "You will now be placed in the queue. If you'd like to be placed in a callback queue, plesee press 2 to enter a callback number. Otherwise, press 1 to be transferred to an agent."
+      },
+      "Identifier": "35d19e2a-432e-41a6-838d-bb9949910869",
+      "Type": "GetParticipantInput",
+      "Transitions": {
+        "NextAction": "da46c982-772f-43be-a034-8402e4d7afea",
+        "Conditions": [
+          {
+            "NextAction": "220a5a3b-1792-40dd-9c08-08b6bc122541",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "2"
+              ]
+            }
+          },
+          {
+            "NextAction": "da46c982-772f-43be-a034-8402e4d7afea",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "1"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "da46c982-772f-43be-a034-8402e4d7afea",
+            "ErrorType": "InputTimeLimitExceeded"
+          },
+          {
+            "NextAction": "da46c982-772f-43be-a034-8402e4d7afea",
+            "ErrorType": "NoMatchingCondition"
+          },
+          {
+            "NextAction": "cad6d3f7-e39e-426f-bf32-b99aa549a34b",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "ComparisonValue": "$.Channel"
+      },
+      "Identifier": "05c9b198-6508-4fb2-af45-8526c535a05c",
+      "Type": "Compare",
+      "Transitions": {
+        "NextAction": "pushCustomerData",
+        "Conditions": [
+          {
+            "NextAction": "67f2d6ed-c5bc-42cf-9011-b0589ef14103",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "CHAT"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "pushCustomerData",
+            "ErrorType": "NoMatchingCondition"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "LambdaFunctionARN": "arn:aws:lambda:us-east-1:021891593114:function:pushInteractionData",
+        "InvocationTimeLimitSeconds": "8",
+        "ResponseValidation": {
+          "ResponseType": "JSON"
+        }
+      },
+      "Identifier": "pushCustomerData",
+      "Type": "InvokeLambdaFunction",
+      "Transitions": {
+        "NextAction": "35d19e2a-432e-41a6-838d-bb9949910869",
+        "Errors": [
+          {
+            "NextAction": "35d19e2a-432e-41a6-838d-bb9949910869",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "Lambda Look-up Failed"
+      },
+      "Identifier": "1bde52fe-96fa-4621-bb22-8a1169ec148a",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "8ed9b814-e483-4ec5-86cf-37a174a0e9d3",
+        "Errors": [
+          {
+            "NextAction": "8ed9b814-e483-4ec5-86cf-37a174a0e9d3",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "Set contact attribute error"
+      },
+      "Identifier": "28c8a75d-7e4e-4202-8e0c-8a279cc3c23b",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "8ed9b814-e483-4ec5-86cf-37a174a0e9d3",
+        "Errors": [
+          {
+            "NextAction": "8ed9b814-e483-4ec5-86cf-37a174a0e9d3",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "LambdaFunctionARN": "arn:aws:lambda:us-east-1:021891593114:function:readLastInteraction",
+        "InvocationTimeLimitSeconds": "8",
+        "ResponseValidation": {
+          "ResponseType": "JSON"
+        }
+      },
+      "Identifier": "0b407732-4e0b-4edc-b637-e75680225ec6",
+      "Type": "InvokeLambdaFunction",
+      "Transitions": {
+        "NextAction": "79e84401-bf52-426a-916f-690a29aac34b",
+        "Errors": [
+          {
+            "NextAction": "1bde52fe-96fa-4621-bb22-8a1169ec148a",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "Thanks for your call. Our system tells me this is your first time calling in from this phone number. We look forwared to serving you today!"
+      },
+      "Identifier": "IntelligentGreeting2",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "8ed9b814-e483-4ec5-86cf-37a174a0e9d3",
+        "Errors": [
+          {
+            "NextAction": "8ed9b814-e483-4ec5-86cf-37a174a0e9d3",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Attributes": {
+          "PreviousIntent": "$.External.LastInteractionCategory",
+          "LastCalledDate": "$.External.LastInteractionDate"
+        },
+        "TargetContact": "Current"
+      },
+      "Identifier": "79e84401-bf52-426a-916f-690a29aac34b",
+      "Type": "UpdateContactAttributes",
+      "Transitions": {
+        "NextAction": "e7cb0438-f083-47db-89a0-187b089c68de",
+        "Errors": [
+          {
+            "NextAction": "28c8a75d-7e4e-4202-8e0c-8a279cc3c23b",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "Check Contact Attribute Error"
+      },
+      "Identifier": "a8720045-fcae-4dae-af68-426d4a9faae8",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "8ed9b814-e483-4ec5-86cf-37a174a0e9d3",
+        "Errors": [
+          {
+            "NextAction": "8ed9b814-e483-4ec5-86cf-37a174a0e9d3",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "ComparisonValue": "$.Attributes.PreviousIntent"
+      },
+      "Identifier": "e7cb0438-f083-47db-89a0-187b089c68de",
+      "Type": "Compare",
+      "Transitions": {
+        "NextAction": "IntelligentGreeting",
+        "Conditions": [
+          {
+            "NextAction": "IntelligentGreeting2",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "Null"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "IntelligentGreeting",
+            "ErrorType": "NoMatchingCondition"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "ComparisonValue": "$.Attributes.Category"
+      },
+      "Identifier": "8ed9b814-e483-4ec5-86cf-37a174a0e9d3",
+      "Type": "Compare",
+      "Transitions": {
+        "NextAction": "43d31362-47a0-4897-8592-32ffc70b3b3c",
+        "Conditions": [
+          {
+            "NextAction": "5cfb3fa1-78a7-4133-b553-ca7198181192",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "Transportation/MotorVehicles"
+              ]
+            }
+          },
+          {
+            "NextAction": "5cfb3fa1-78a7-4133-b553-ca7198181192",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "Employment/Labor"
+              ]
+            }
+          },
+          {
+            "NextAction": "5cfb3fa1-78a7-4133-b553-ca7198181192",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "Health/SocialServices/Welfare"
+              ]
+            }
+          },
+          {
+            "NextAction": "5cfb3fa1-78a7-4133-b553-ca7198181192",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "GovernmentOperations/HumanResources/GovernmentRevenue"
+              ]
+            }
+          },
+          {
+            "NextAction": "5cfb3fa1-78a7-4133-b553-ca7198181192",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "ConsumerServices/Housing"
+              ]
+            }
+          },
+          {
+            "NextAction": "5cfb3fa1-78a7-4133-b553-ca7198181192",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "PropertyElectedOfficials"
+              ]
+            }
+          },
+          {
+            "NextAction": "5cfb3fa1-78a7-4133-b553-ca7198181192",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "Parks/NationalResources/Environment"
+              ]
+            }
+          },
+          {
+            "NextAction": "5cfb3fa1-78a7-4133-b553-ca7198181192",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "GenerealAssitance"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "43d31362-47a0-4897-8592-32ffc70b3b3c",
+            "ErrorType": "NoMatchingCondition"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "Interpret error of inteligent say"
+      },
+      "Identifier": "635da8d1-8e8f-41cf-9a09-f75ef5934019",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "8ed9b814-e483-4ec5-86cf-37a174a0e9d3",
+        "Errors": [
+          {
+            "NextAction": "8ed9b814-e483-4ec5-86cf-37a174a0e9d3",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "According to our system, we recognized you called our contact center on $.Attributes.LastCalledDate regarding $.Attributes.PreviousIntent.\n\nPlease note that our automated system has already made agents aware of this!"
+      },
+      "Identifier": "IntelligentGreeting",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "8ed9b814-e483-4ec5-86cf-37a174a0e9d3",
+        "Errors": [
+          {
+            "NextAction": "635da8d1-8e8f-41cf-9a09-f75ef5934019",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    }
+  ]
+}

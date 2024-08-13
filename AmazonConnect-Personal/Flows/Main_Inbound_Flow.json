@@ -1,0 +1,1177 @@
+{
+  "Version": "2019-10-30",
+  "StartAction": "6e53ccd1-94bf-4f4e-a6c7-69d1f2b9cc20",
+  "Metadata": {
+    "entryPointPosition": {
+      "x": -269.6,
+      "y": -28
+    },
+    "ActionMetadata": {
+      "f9d359f6-ab58-416a-8d69-d721cf49a2df": {
+        "position": {
+          "x": 1970.4,
+          "y": 168
+        },
+        "parameters": {
+          "ContactFlowId": {
+            "displayName": "Sample secure input with no agent"
+          }
+        },
+        "ContactFlow": {
+          "text": "Sample secure input with no agent"
+        }
+      },
+      "4c568499-9a87-46d1-87e2-213ebaf81c4e": {
+        "position": {
+          "x": 1967.2,
+          "y": 335.2
+        },
+        "parameters": {
+          "ContactFlowId": {
+            "displayName": "Sample Lambda integration"
+          }
+        },
+        "ContactFlow": {
+          "text": "Sample Lambda integration"
+        }
+      },
+      "6d68b65b-787d-4359-a58b-23959a0c18d7": {
+        "position": {
+          "x": 1965.6,
+          "y": 500.8
+        },
+        "parameters": {
+          "ContactFlowId": {
+            "displayName": "Sample note for screenpop"
+          }
+        },
+        "ContactFlow": {
+          "text": "Sample note for screenpop"
+        }
+      },
+      "f7ee6062-55b6-4bcf-9b06-35e5735fbad7": {
+        "position": {
+          "x": 1988.8,
+          "y": 668
+        },
+        "parameters": {
+          "ContactFlowId": {
+            "displayName": "Sample AB test"
+          }
+        },
+        "ContactFlow": {
+          "text": "Sample AB test"
+        }
+      },
+      "3b843a8a-19c1-4f34-b874-c28a8550a352": {
+        "position": {
+          "x": 1984,
+          "y": 844.8
+        },
+        "parameters": {
+          "ContactFlowId": {
+            "displayName": "Sample recording behavior"
+          }
+        },
+        "ContactFlow": {
+          "text": "Sample recording behavior"
+        }
+      },
+      "f6e54fb1-d0db-4135-8eb2-5facb1d50b7e": {
+        "position": {
+          "x": 2012.8,
+          "y": 1069.6
+        },
+        "parameters": {
+          "ContactFlowId": {
+            "displayName": "Sample inbound flow (first contact experience)"
+          },
+          "Attributes": {
+            "CustomerPhoneNumber": {
+              "useDynamic": true
+            }
+          }
+        },
+        "ContactFlow": {
+          "text": "Sample inbound flow (first contact experience)"
+        }
+      },
+      "a456069e-9995-4119-9427-bd63308fa17f": {
+        "position": {
+          "x": 376.8,
+          "y": 584.8
+        },
+        "dynamicParams": []
+      },
+      "5aca4350-ab35-4be3-bff5-f460dcc8344e": {
+        "position": {
+          "x": 418.4,
+          "y": 839.2
+        },
+        "overrideConsoleVoice": true
+      },
+      "6063b277-5cd1-41fc-a069-ae76887f2a23": {
+        "position": {
+          "x": 772.8,
+          "y": 572.8
+        }
+      },
+      "e806df8f-a7e2-46e9-82e1-577cc9fb9869": {
+        "position": {
+          "x": 1599.2,
+          "y": 200.8
+        },
+        "dynamicParams": []
+      },
+      "b44c2254-44e6-4baa-a8c9-15166afb3ebc": {
+        "position": {
+          "x": 1598.4,
+          "y": 412.8
+        },
+        "dynamicParams": []
+      },
+      "890f28cb-c54f-49df-96f6-ac77393f0da4": {
+        "position": {
+          "x": 1605.6,
+          "y": 833.6
+        },
+        "dynamicParams": []
+      },
+      "f46f3456-b708-4b1d-aeb4-c8427b528603": {
+        "position": {
+          "x": 1612,
+          "y": 1036
+        },
+        "dynamicParams": []
+      },
+      "5c1a547d-8102-4852-ac9e-65f990ea6c8c": {
+        "position": {
+          "x": 1608,
+          "y": 1225.6
+        },
+        "dynamicParams": []
+      },
+      "fe6810db-1fe8-4b8d-a939-65dadbb61ef7": {
+        "position": {
+          "x": 1119.2,
+          "y": -113.6
+        }
+      },
+      "4cb86557-b541-46a3-a452-cee0b241a3cf": {
+        "position": {
+          "x": 70.4,
+          "y": 570.4
+        },
+        "conditions": [],
+        "conditionMetadata": [
+          {
+            "id": "22450fc9-3c0e-4756-86ff-ee0f3435b6f3",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "true"
+          }
+        ]
+      },
+      "6e53ccd1-94bf-4f4e-a6c7-69d1f2b9cc20": {
+        "position": {
+          "x": -44.8,
+          "y": -126.4
+        },
+        "parameters": {
+          "EventHooks": {}
+        }
+      },
+      "b12db490-4585-4aaa-be9f-4a46f440c029": {
+        "position": {
+          "x": 264.8,
+          "y": -121.6
+        }
+      },
+      "017941b2-4603-4ad1-8002-5306cce31758": {
+        "position": {
+          "x": 1607.2,
+          "y": 624
+        },
+        "dynamicParams": []
+      },
+      "b11b10a6-c4bd-41ba-a9d9-098cc5374035": {
+        "position": {
+          "x": 558.4,
+          "y": -150.4
+        },
+        "conditions": [],
+        "conditionMetadata": [
+          {
+            "id": "67314264-9fa5-4e41-b3c5-aad9725a4e7a",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "CHAT"
+          },
+          {
+            "id": "d72acdb2-61ce-428f-9c65-990756a38d8d",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "TASK"
+          }
+        ]
+      },
+      "83b76e76-52cc-4732-81ff-1519b0c0f132": {
+        "position": {
+          "x": 2480.8,
+          "y": 583.2
+        }
+      },
+      "5da58ddd-a8bb-4d1f-8b67-d3de23d55989": {
+        "position": {
+          "x": -300,
+          "y": 232.8
+        },
+        "parameters": {
+          "HoursOfOperationId": {
+            "displayName": "California"
+          }
+        },
+        "Hours": {
+          "id": "arn:aws:connect:us-east-1:021891593114:instance/38d5dde2-ec9c-4391-9627-466fcf4bb1ff/operating-hours/e332ffe2-3c56-41c9-9a47-ed73975e46e8",
+          "text": "California"
+        }
+      },
+      "606f5b15-dce4-4dca-9ec8-dae16eaac1dc": {
+        "position": {
+          "x": -1372,
+          "y": 1216
+        }
+      },
+      "b2f0a061-4902-4790-b9dc-c27fb9dba613": {
+        "position": {
+          "x": -1048.8,
+          "y": 690.4
+        },
+        "dynamicMetadata": {}
+      },
+      "Contact Lens": {
+        "position": {
+          "x": -307.2,
+          "y": 497.6
+        },
+        "isFriendlyName": true
+      },
+      "699ac299-9c8c-4c60-9630-fc3f1545cf3b": {
+        "position": {
+          "x": -300,
+          "y": 1044
+        }
+      },
+      "2e817d62-1885-4cd9-af72-e67be32b09d4": {
+        "position": {
+          "x": -737.6,
+          "y": 1239.2
+        }
+      },
+      "4a2543ea-e023-452a-998f-82106103de33": {
+        "position": {
+          "x": -1040,
+          "y": 968.8
+        },
+        "parameters": {
+          "Attributes": {
+            "Holiday": {
+              "useDynamic": true
+            }
+          }
+        },
+        "dynamicParams": [
+          "Holiday"
+        ]
+      },
+      "0451c0cc-81b8-4eb7-bf31-c57cacc957b8": {
+        "position": {
+          "x": -695.2,
+          "y": 956
+        },
+        "conditions": [],
+        "conditionMetadata": [
+          {
+            "id": "ca402d33-31e4-4ca4-88d7-1f50ae560d39",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "True"
+          },
+          {
+            "id": "564ee9f2-2c63-4aa4-b90d-966a02c8d1a1",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "False"
+          }
+        ]
+      },
+      "269a963b-69c1-4f97-9036-4dc0e1e876f6": {
+        "position": {
+          "x": 1604.8,
+          "y": 1429.6
+        },
+        "dynamicParams": []
+      },
+      "98a70ec0-069b-44a4-ada6-2a1810b1c675": {
+        "position": {
+          "x": 1218.4,
+          "y": 398.4
+        },
+        "conditionMetadata": [
+          {
+            "id": "cdcbd225-5a70-463e-9c32-426e1fb9c9fa",
+            "value": "1"
+          },
+          {
+            "id": "efdbefc3-8504-4cf7-945a-04b04dad62c5",
+            "value": "2"
+          },
+          {
+            "id": "4d3a0d9b-88d4-41b7-97af-ada07ffe4065",
+            "value": "3"
+          },
+          {
+            "id": "b071ccf2-9305-4e6d-abed-dac4844b0c5c",
+            "value": "4"
+          },
+          {
+            "id": "530bdf2b-fcb9-4bd8-8485-e7f6f3bd12f6",
+            "value": "5"
+          },
+          {
+            "id": "8bc2bb55-07f4-40a0-a6bd-7899cf5688c6",
+            "value": "6"
+          },
+          {
+            "id": "a2191f5f-9285-4b6a-b70a-b11270790c6f",
+            "value": "7"
+          },
+          {
+            "id": "267a9978-1bc0-43b7-b777-3d7bea1efcb0",
+            "value": "8"
+          },
+          {
+            "id": "e7e29624-d9cc-4ba6-9897-e943a759fcef",
+            "value": "0"
+          }
+        ]
+      },
+      "ae54d6c1-507d-4d6e-886e-e212cbbcf976": {
+        "position": {
+          "x": 1927.2,
+          "y": -141.6
+        },
+        "parameters": {
+          "ContactFlowId": {
+            "displayName": "Queue configurations flow"
+          }
+        },
+        "ContactFlow": {
+          "text": "Queue configurations flow"
+        }
+      },
+      "7c0a92c0-3a0d-4941-9d0e-2ae0e16ce58b": {
+        "position": {
+          "x": 2218.4,
+          "y": 573.6
+        }
+      },
+      "fcd6129f-b8c7-4fce-a616-23aaf74d6159": {
+        "position": {
+          "x": 1592.8,
+          "y": -3.2
+        },
+        "dynamicParams": []
+      }
+    },
+    "Annotations": [
+      {
+        "type": "default",
+        "id": "6c336c1a-7ef5-4fe7-930d-861a899121df",
+        "content": "Here, if its chat, route to a specific chat queue and chat logic that checks hoo sms -> continue on. Can also configure Email.",
+        "actionId": "",
+        "isFolded": false,
+        "position": {
+          "x": 1658,
+          "y": -213
+        },
+        "size": {
+          "height": 295,
+          "width": 300
+        }
+      }
+    ],
+    "name": "Main_Inbound_Flow",
+    "description": "First contact experience",
+    "type": "contactFlow",
+    "status": "published",
+    "hash": {}
+  },
+  "Actions": [
+    {
+      "Parameters": {
+        "ContactFlowId": "arn:aws:connect:us-east-1:021891593114:instance/38d5dde2-ec9c-4391-9627-466fcf4bb1ff/contact-flow/f4901712-0b84-4bfa-a1e0-281d06552be6"
+      },
+      "Identifier": "f9d359f6-ab58-416a-8d69-d721cf49a2df",
+      "Type": "TransferToFlow",
+      "Transitions": {
+        "NextAction": "7c0a92c0-3a0d-4941-9d0e-2ae0e16ce58b",
+        "Errors": [
+          {
+            "NextAction": "7c0a92c0-3a0d-4941-9d0e-2ae0e16ce58b",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "ContactFlowId": "arn:aws:connect:us-east-1:021891593114:instance/38d5dde2-ec9c-4391-9627-466fcf4bb1ff/contact-flow/394adae2-d2ed-4dac-ade7-febe2c0b166d"
+      },
+      "Identifier": "4c568499-9a87-46d1-87e2-213ebaf81c4e",
+      "Type": "TransferToFlow",
+      "Transitions": {
+        "NextAction": "7c0a92c0-3a0d-4941-9d0e-2ae0e16ce58b",
+        "Errors": [
+          {
+            "NextAction": "7c0a92c0-3a0d-4941-9d0e-2ae0e16ce58b",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "ContactFlowId": "arn:aws:connect:us-east-1:021891593114:instance/38d5dde2-ec9c-4391-9627-466fcf4bb1ff/contact-flow/3880fd4e-aa5a-4c02-9456-5d8c7007e60b"
+      },
+      "Identifier": "6d68b65b-787d-4359-a58b-23959a0c18d7",
+      "Type": "TransferToFlow",
+      "Transitions": {
+        "NextAction": "7c0a92c0-3a0d-4941-9d0e-2ae0e16ce58b",
+        "Errors": [
+          {
+            "NextAction": "7c0a92c0-3a0d-4941-9d0e-2ae0e16ce58b",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "ContactFlowId": "arn:aws:connect:us-east-1:021891593114:instance/38d5dde2-ec9c-4391-9627-466fcf4bb1ff/contact-flow/e504af70-318b-4481-8c8e-0573ff409b87"
+      },
+      "Identifier": "f7ee6062-55b6-4bcf-9b06-35e5735fbad7",
+      "Type": "TransferToFlow",
+      "Transitions": {
+        "NextAction": "7c0a92c0-3a0d-4941-9d0e-2ae0e16ce58b",
+        "Errors": [
+          {
+            "NextAction": "7c0a92c0-3a0d-4941-9d0e-2ae0e16ce58b",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "ContactFlowId": "arn:aws:connect:us-east-1:021891593114:instance/38d5dde2-ec9c-4391-9627-466fcf4bb1ff/contact-flow/25dbb798-4e9c-4074-a667-e0c570deda11"
+      },
+      "Identifier": "3b843a8a-19c1-4f34-b874-c28a8550a352",
+      "Type": "TransferToFlow",
+      "Transitions": {
+        "NextAction": "7c0a92c0-3a0d-4941-9d0e-2ae0e16ce58b",
+        "Errors": [
+          {
+            "NextAction": "7c0a92c0-3a0d-4941-9d0e-2ae0e16ce58b",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Name": "Sample task",
+        "ContactFlowId": "arn:aws:connect:us-east-1:021891593114:instance/38d5dde2-ec9c-4391-9627-466fcf4bb1ff/contact-flow/442bcc66-64cd-4224-ba48-47bfbf6e8649",
+        "Description": "Example of an agent task to investigate customer issue from sample inbound flow.",
+        "Attributes": {
+          "CustomerPhoneNumber": "$.CustomerEndpoint.Address",
+          "Type": "inbound"
+        }
+      },
+      "Identifier": "f6e54fb1-d0db-4135-8eb2-5facb1d50b7e",
+      "Type": "CreateTask",
+      "Transitions": {
+        "NextAction": "83b76e76-52cc-4732-81ff-1519b0c0f132",
+        "Errors": [
+          {
+            "NextAction": "7c0a92c0-3a0d-4941-9d0e-2ae0e16ce58b",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Attributes": {
+          "greetingPlayed": "true"
+        },
+        "TargetContact": "Current"
+      },
+      "Identifier": "a456069e-9995-4119-9427-bd63308fa17f",
+      "Type": "UpdateContactAttributes",
+      "Transitions": {
+        "NextAction": "5aca4350-ab35-4be3-bff5-f460dcc8344e",
+        "Errors": [
+          {
+            "NextAction": "6063b277-5cd1-41fc-a069-ae76887f2a23",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "TextToSpeechEngine": "Neural",
+        "TextToSpeechStyle": "None",
+        "TextToSpeechVoice": "Stephen"
+      },
+      "Identifier": "5aca4350-ab35-4be3-bff5-f460dcc8344e",
+      "Type": "UpdateContactTextToSpeechVoice",
+      "Transitions": {
+        "NextAction": "6063b277-5cd1-41fc-a069-ae76887f2a23"
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "Hello, thanks for calling the utopian state of Rishikumar! You're call is very important to us, please help us understand why you're calling today so we can transfer you to the appropriate department."
+      },
+      "Identifier": "6063b277-5cd1-41fc-a069-ae76887f2a23",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "98a70ec0-069b-44a4-ada6-2a1810b1c675",
+        "Errors": [
+          {
+            "NextAction": "7c0a92c0-3a0d-4941-9d0e-2ae0e16ce58b",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Attributes": {
+          "Category": "Employment/Labor"
+        },
+        "TargetContact": "Current"
+      },
+      "Identifier": "e806df8f-a7e2-46e9-82e1-577cc9fb9869",
+      "Type": "UpdateContactAttributes",
+      "Transitions": {
+        "NextAction": "ae54d6c1-507d-4d6e-886e-e212cbbcf976",
+        "Errors": [
+          {
+            "NextAction": "7c0a92c0-3a0d-4941-9d0e-2ae0e16ce58b",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Attributes": {
+          "Category": "Health/SocialServices/Welfare"
+        },
+        "TargetContact": "Current"
+      },
+      "Identifier": "b44c2254-44e6-4baa-a8c9-15166afb3ebc",
+      "Type": "UpdateContactAttributes",
+      "Transitions": {
+        "NextAction": "ae54d6c1-507d-4d6e-886e-e212cbbcf976",
+        "Errors": [
+          {
+            "NextAction": "7c0a92c0-3a0d-4941-9d0e-2ae0e16ce58b",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Attributes": {
+          "Category": "ConsumerServices/Housing"
+        },
+        "TargetContact": "Current"
+      },
+      "Identifier": "890f28cb-c54f-49df-96f6-ac77393f0da4",
+      "Type": "UpdateContactAttributes",
+      "Transitions": {
+        "NextAction": "ae54d6c1-507d-4d6e-886e-e212cbbcf976",
+        "Errors": [
+          {
+            "NextAction": "7c0a92c0-3a0d-4941-9d0e-2ae0e16ce58b",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Attributes": {
+          "Category": "PropertyElectedOfficials"
+        },
+        "TargetContact": "Current"
+      },
+      "Identifier": "f46f3456-b708-4b1d-aeb4-c8427b528603",
+      "Type": "UpdateContactAttributes",
+      "Transitions": {
+        "NextAction": "ae54d6c1-507d-4d6e-886e-e212cbbcf976",
+        "Errors": [
+          {
+            "NextAction": "7c0a92c0-3a0d-4941-9d0e-2ae0e16ce58b",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Attributes": {
+          "Category": "Parks/NationalResources/Environment"
+        },
+        "TargetContact": "Current"
+      },
+      "Identifier": "5c1a547d-8102-4852-ac9e-65f990ea6c8c",
+      "Type": "UpdateContactAttributes",
+      "Transitions": {
+        "NextAction": "ae54d6c1-507d-4d6e-886e-e212cbbcf976",
+        "Errors": [
+          {
+            "NextAction": "7c0a92c0-3a0d-4941-9d0e-2ae0e16ce58b",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "Hello, thanks for contacting us via chat. This is an example of what the Amazon Connect virtual contact center can enable you to do."
+      },
+      "Identifier": "fe6810db-1fe8-4b8d-a939-65dadbb61ef7",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "ae54d6c1-507d-4d6e-886e-e212cbbcf976",
+        "Errors": [
+          {
+            "NextAction": "7c0a92c0-3a0d-4941-9d0e-2ae0e16ce58b",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "ComparisonValue": "$.Attributes.greetingPlayed"
+      },
+      "Identifier": "4cb86557-b541-46a3-a452-cee0b241a3cf",
+      "Type": "Compare",
+      "Transitions": {
+        "NextAction": "a456069e-9995-4119-9427-bd63308fa17f",
+        "Conditions": [
+          {
+            "NextAction": "98a70ec0-069b-44a4-ada6-2a1810b1c675",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "true"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "a456069e-9995-4119-9427-bd63308fa17f",
+            "ErrorType": "NoMatchingCondition"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "EventHooks": {
+          "CustomerRemaining": "arn:aws:connect:us-east-1:021891593114:instance/38d5dde2-ec9c-4391-9627-466fcf4bb1ff/contact-flow/36a8f5df-36a2-4800-91a5-051fc7659c17"
+        }
+      },
+      "Identifier": "6e53ccd1-94bf-4f4e-a6c7-69d1f2b9cc20",
+      "Type": "UpdateContactEventHooks",
+      "Transitions": {
+        "NextAction": "b12db490-4585-4aaa-be9f-4a46f440c029",
+        "Errors": [
+          {
+            "NextAction": "b11b10a6-c4bd-41ba-a9d9-098cc5374035",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "FlowLoggingBehavior": "Enabled"
+      },
+      "Identifier": "b12db490-4585-4aaa-be9f-4a46f440c029",
+      "Type": "UpdateFlowLoggingBehavior",
+      "Transitions": {
+        "NextAction": "b11b10a6-c4bd-41ba-a9d9-098cc5374035"
+      }
+    },
+    {
+      "Parameters": {
+        "Attributes": {
+          "Category": "GovernmentOperations/HumanResources/GovernmentRevenue"
+        },
+        "TargetContact": "Current"
+      },
+      "Identifier": "017941b2-4603-4ad1-8002-5306cce31758",
+      "Type": "UpdateContactAttributes",
+      "Transitions": {
+        "NextAction": "ae54d6c1-507d-4d6e-886e-e212cbbcf976",
+        "Errors": [
+          {
+            "NextAction": "7c0a92c0-3a0d-4941-9d0e-2ae0e16ce58b",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "ComparisonValue": "$.Channel"
+      },
+      "Identifier": "b11b10a6-c4bd-41ba-a9d9-098cc5374035",
+      "Type": "Compare",
+      "Transitions": {
+        "NextAction": "5da58ddd-a8bb-4d1f-8b67-d3de23d55989",
+        "Conditions": [
+          {
+            "NextAction": "fe6810db-1fe8-4b8d-a939-65dadbb61ef7",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "CHAT"
+              ]
+            }
+          },
+          {
+            "NextAction": "fe6810db-1fe8-4b8d-a939-65dadbb61ef7",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "TASK"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "5da58ddd-a8bb-4d1f-8b67-d3de23d55989",
+            "ErrorType": "NoMatchingCondition"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {},
+      "Identifier": "83b76e76-52cc-4732-81ff-1519b0c0f132",
+      "Type": "DisconnectParticipant",
+      "Transitions": {}
+    },
+    {
+      "Parameters": {
+        "HoursOfOperationId": "arn:aws:connect:us-east-1:021891593114:instance/38d5dde2-ec9c-4391-9627-466fcf4bb1ff/operating-hours/e332ffe2-3c56-41c9-9a47-ed73975e46e8"
+      },
+      "Identifier": "5da58ddd-a8bb-4d1f-8b67-d3de23d55989",
+      "Type": "CheckHoursOfOperation",
+      "Transitions": {
+        "NextAction": "7c0a92c0-3a0d-4941-9d0e-2ae0e16ce58b",
+        "Conditions": [
+          {
+            "NextAction": "b2f0a061-4902-4790-b9dc-c27fb9dba613",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "True"
+              ]
+            }
+          },
+          {
+            "NextAction": "699ac299-9c8c-4c60-9630-fc3f1545cf3b",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "False"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "7c0a92c0-3a0d-4941-9d0e-2ae0e16ce58b",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "Set contact error or lambda error."
+      },
+      "Identifier": "606f5b15-dce4-4dca-9ec8-dae16eaac1dc",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "83b76e76-52cc-4732-81ff-1519b0c0f132",
+        "Errors": [
+          {
+            "NextAction": "83b76e76-52cc-4732-81ff-1519b0c0f132",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "LambdaFunctionARN": "arn:aws:lambda:us-east-1:021891593114:function:checkHoliday",
+        "InvocationTimeLimitSeconds": "8",
+        "ResponseValidation": {
+          "ResponseType": "JSON"
+        }
+      },
+      "Identifier": "b2f0a061-4902-4790-b9dc-c27fb9dba613",
+      "Type": "InvokeLambdaFunction",
+      "Transitions": {
+        "NextAction": "4a2543ea-e023-452a-998f-82106103de33",
+        "Errors": [
+          {
+            "NextAction": "7c0a92c0-3a0d-4941-9d0e-2ae0e16ce58b",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "RecordingBehavior": {
+          "RecordedParticipants": [
+            "Agent",
+            "Customer"
+          ],
+          "ScreenRecordedParticipants": [
+            "Agent"
+          ]
+        },
+        "AnalyticsBehavior": {
+          "Enabled": "True",
+          "AnalyticsLanguage": "en-US",
+          "AnalyticsRedactionBehavior": "Enabled",
+          "AnalyticsRedactionResults": "RedactedAndOriginal",
+          "AnalyticsRedactionMaskMode": "PII",
+          "ChannelConfiguration": {
+            "Chat": {
+              "AnalyticsModes": [
+                "ContactLens"
+              ]
+            },
+            "Voice": {
+              "AnalyticsModes": [
+                "RealTime"
+              ]
+            }
+          },
+          "SummaryConfiguration": {
+            "SummaryModes": [
+              "PostContact"
+            ]
+          }
+        }
+      },
+      "Identifier": "Contact Lens",
+      "Type": "UpdateContactRecordingBehavior",
+      "Transitions": {
+        "NextAction": "4cb86557-b541-46a3-a452-cee0b241a3cf"
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "Hello, thanks for calling the utopian state of Rishikumar! Unforuntately we are currently closed, please call back within hours of operation. We are open Monday through Friday, 8am - 5pm. We hope to get in touch with you at your next earliest convenience. Thanks, and have a great day!"
+      },
+      "Identifier": "699ac299-9c8c-4c60-9630-fc3f1545cf3b",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "83b76e76-52cc-4732-81ff-1519b0c0f132",
+        "Errors": [
+          {
+            "NextAction": "7c0a92c0-3a0d-4941-9d0e-2ae0e16ce58b",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "Check contact error"
+      },
+      "Identifier": "2e817d62-1885-4cd9-af72-e67be32b09d4",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "83b76e76-52cc-4732-81ff-1519b0c0f132",
+        "Errors": [
+          {
+            "NextAction": "83b76e76-52cc-4732-81ff-1519b0c0f132",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Attributes": {
+          "Holiday": "$.External.isHoliday"
+        },
+        "TargetContact": "Current"
+      },
+      "Identifier": "4a2543ea-e023-452a-998f-82106103de33",
+      "Type": "UpdateContactAttributes",
+      "Transitions": {
+        "NextAction": "0451c0cc-81b8-4eb7-bf31-c57cacc957b8",
+        "Errors": [
+          {
+            "NextAction": "606f5b15-dce4-4dca-9ec8-dae16eaac1dc",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "ComparisonValue": "$.Attributes.Holiday"
+      },
+      "Identifier": "0451c0cc-81b8-4eb7-bf31-c57cacc957b8",
+      "Type": "Compare",
+      "Transitions": {
+        "NextAction": "2e817d62-1885-4cd9-af72-e67be32b09d4",
+        "Conditions": [
+          {
+            "NextAction": "699ac299-9c8c-4c60-9630-fc3f1545cf3b",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "True"
+              ]
+            }
+          },
+          {
+            "NextAction": "Contact Lens",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "False"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "2e817d62-1885-4cd9-af72-e67be32b09d4",
+            "ErrorType": "NoMatchingCondition"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Attributes": {
+          "Category": "GeneralAssitance"
+        },
+        "TargetContact": "Current"
+      },
+      "Identifier": "269a963b-69c1-4f97-9036-4dc0e1e876f6",
+      "Type": "UpdateContactAttributes",
+      "Transitions": {
+        "NextAction": "ae54d6c1-507d-4d6e-886e-e212cbbcf976",
+        "Errors": [
+          {
+            "NextAction": "7c0a92c0-3a0d-4941-9d0e-2ae0e16ce58b",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "StoreInput": "False",
+        "InputTimeLimitSeconds": "8",
+        "Text": "For Transportation and Motor Vehicles, press 1.\nFor Employment and labor, press 2.\nFor Health, social services, and welfare, press 3.\nFor Government operations, human resources, and government revenue, press 4.\nFor Consumer services and housing, press 5.\nFor Property Elected Officers, press 6.\nFor parks, national resources, and environment, press 7.\nFor general assistance, press 8.\nTo Repeat these options, press 0."
+      },
+      "Identifier": "98a70ec0-069b-44a4-ada6-2a1810b1c675",
+      "Type": "GetParticipantInput",
+      "Transitions": {
+        "NextAction": "6063b277-5cd1-41fc-a069-ae76887f2a23",
+        "Conditions": [
+          {
+            "NextAction": "fcd6129f-b8c7-4fce-a616-23aaf74d6159",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "1"
+              ]
+            }
+          },
+          {
+            "NextAction": "e806df8f-a7e2-46e9-82e1-577cc9fb9869",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "2"
+              ]
+            }
+          },
+          {
+            "NextAction": "b44c2254-44e6-4baa-a8c9-15166afb3ebc",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "3"
+              ]
+            }
+          },
+          {
+            "NextAction": "017941b2-4603-4ad1-8002-5306cce31758",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "4"
+              ]
+            }
+          },
+          {
+            "NextAction": "890f28cb-c54f-49df-96f6-ac77393f0da4",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "5"
+              ]
+            }
+          },
+          {
+            "NextAction": "f46f3456-b708-4b1d-aeb4-c8427b528603",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "6"
+              ]
+            }
+          },
+          {
+            "NextAction": "5c1a547d-8102-4852-ac9e-65f990ea6c8c",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "7"
+              ]
+            }
+          },
+          {
+            "NextAction": "269a963b-69c1-4f97-9036-4dc0e1e876f6",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "8"
+              ]
+            }
+          },
+          {
+            "NextAction": "6063b277-5cd1-41fc-a069-ae76887f2a23",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "0"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "6063b277-5cd1-41fc-a069-ae76887f2a23",
+            "ErrorType": "InputTimeLimitExceeded"
+          },
+          {
+            "NextAction": "6063b277-5cd1-41fc-a069-ae76887f2a23",
+            "ErrorType": "NoMatchingCondition"
+          },
+          {
+            "NextAction": "7c0a92c0-3a0d-4941-9d0e-2ae0e16ce58b",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "ContactFlowId": "arn:aws:connect:us-east-1:021891593114:instance/38d5dde2-ec9c-4391-9627-466fcf4bb1ff/contact-flow/5e40836c-3445-4746-8a0a-7f440c0056fb"
+      },
+      "Identifier": "ae54d6c1-507d-4d6e-886e-e212cbbcf976",
+      "Type": "TransferToFlow",
+      "Transitions": {
+        "NextAction": "7c0a92c0-3a0d-4941-9d0e-2ae0e16ce58b",
+        "Errors": [
+          {
+            "NextAction": "7c0a92c0-3a0d-4941-9d0e-2ae0e16ce58b",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "We're sorry, an error occurred. Goodbye."
+      },
+      "Identifier": "7c0a92c0-3a0d-4941-9d0e-2ae0e16ce58b",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "83b76e76-52cc-4732-81ff-1519b0c0f132"
+      }
+    },
+    {
+      "Parameters": {
+        "Attributes": {
+          "Category": "Transportation/MotorVehicles"
+        },
+        "TargetContact": "Current"
+      },
+      "Identifier": "fcd6129f-b8c7-4fce-a616-23aaf74d6159",
+      "Type": "UpdateContactAttributes",
+      "Transitions": {
+        "NextAction": "ae54d6c1-507d-4d6e-886e-e212cbbcf976",
+        "Errors": [
+          {
+            "NextAction": "7c0a92c0-3a0d-4941-9d0e-2ae0e16ce58b",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    }
+  ]
+}

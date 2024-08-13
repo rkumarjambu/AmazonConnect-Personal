@@ -1,0 +1,137 @@
+Transform: AWS::Serverless-2016-10-31
+Resources:
+  CustomerInteractions:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      AttributeDefinitions:
+        - AttributeName: PhoneNumber
+          AttributeType: 'N'
+      BillingMode: PAY_PER_REQUEST
+      KeySchema:
+        - AttributeName: PhoneNumber
+          KeyType: HASH
+      StreamSpecification:
+        StreamViewType: NEW_AND_OLD_IMAGES
+  checkHoliday:
+    Type: AWS::Serverless::Function
+    Properties:
+      Description: !Sub
+        - Stack ${AWS::StackName} Function ${ResourceName}
+        - ResourceName: checkHoliday
+      CodeUri: src/Function
+      Handler: handler.handler
+      Runtime: python3.9
+      MemorySize: 3008
+      Timeout: 30
+      Tracing: Active
+      Events:
+        ConnectAPIPOSTisHoliday:
+          Type: Api
+          Properties:
+            Path: /isHoliday
+            Method: POST
+            RestApiId: !Ref ConnectAPI
+  checkHolidayLogGroup:
+    Type: AWS::Logs::LogGroup
+    DeletionPolicy: Retain
+    Properties:
+      LogGroupName: !Sub /aws/lambda/${checkHoliday}
+  readLastInteraction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Description: !Sub
+        - Stack ${AWS::StackName} Function ${ResourceName}
+        - ResourceName: readLastInteraction
+      CodeUri: src/Function2
+      Handler: handler.handler
+      Runtime: python3.9
+      MemorySize: 3008
+      Timeout: 30
+      Tracing: Active
+      Events:
+        ConnectAPIPOSTreadLastInteraction:
+          Type: Api
+          Properties:
+            Path: /readLastInteraction
+            Method: POST
+            RestApiId: !Ref ConnectAPI
+      Environment:
+        Variables:
+          CUSTOMERINTERACTIONS_TABLE_NAME: !Ref CustomerInteractions
+          CUSTOMERINTERACTIONS_TABLE_ARN: !GetAtt CustomerInteractions.Arn
+      Policies:
+        - DynamoDBCrudPolicy:
+            TableName: !Ref CustomerInteractions
+  readLastInteractionLogGroup:
+    Type: AWS::Logs::LogGroup
+    DeletionPolicy: Retain
+    Properties:
+      LogGroupName: !Sub /aws/lambda/${readLastInteraction}
+  pushInteractionData:
+    Type: AWS::Serverless::Function
+    Properties:
+      Description: !Sub
+        - Stack ${AWS::StackName} Function ${ResourceName}
+        - ResourceName: pushInteractionData
+      CodeUri: src/Function3
+      Handler: handler.handler
+      Runtime: python3.9
+      MemorySize: 3008
+      Timeout: 30
+      Tracing: Active
+      Events:
+        ConnectAPIPOSTpushInteractionData:
+          Type: Api
+          Properties:
+            Path: /pushInteractionData
+            Method: POST
+            RestApiId: !Ref ConnectAPI
+      Environment:
+        Variables:
+          CUSTOMERINTERACTIONS_TABLE_NAME: !Ref CustomerInteractions
+          CUSTOMERINTERACTIONS_TABLE_ARN: !GetAtt CustomerInteractions.Arn
+      Policies:
+        - DynamoDBCrudPolicy:
+            TableName: !Ref CustomerInteractions
+  pushInteractionDataLogGroup:
+    Type: AWS::Logs::LogGroup
+    DeletionPolicy: Retain
+    Properties:
+      LogGroupName: !Sub /aws/lambda/${pushInteractionData}
+  ConnectAPI:
+    Type: AWS::Serverless::Api
+    Properties:
+      Name: !Sub
+        - ${ResourceName} From Stack ${AWS::StackName}
+        - ResourceName: ConnectAPI
+      StageName: Prod
+      DefinitionBody:
+        openapi: '3.0'
+        info: {}
+        paths:
+          /isHoliday:
+            post:
+              x-amazon-apigateway-integration:
+                httpMethod: POST
+                type: aws_proxy
+                uri: !Sub arn:${AWS::Partition}:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${checkHoliday.Arn}/invocations
+              responses: {}
+          /pushInteractionData:
+            post:
+              x-amazon-apigateway-integration:
+                httpMethod: POST
+                type: aws_proxy
+                uri: !Sub arn:${AWS::Partition}:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${pushInteractionData.Arn}/invocations
+              responses: {}
+          /readLastInteraction:
+            post:
+              x-amazon-apigateway-integration:
+                httpMethod: POST
+                type: aws_proxy
+                uri: !Sub arn:${AWS::Partition}:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${readLastInteraction.Arn}/invocations
+              responses: {}
+      EndpointConfiguration: REGIONAL
+      TracingEnabled: true
+      Cors:
+        AllowCredentials: true
+        MaxAge: 5
