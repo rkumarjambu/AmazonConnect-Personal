@@ -7,7 +7,10 @@ The Intervision Project is a sophisticated implementation of Amazon Connect, int
 
 Architecture Diagram
 
-The architecture diagram provides a comprehensive view of the entire project, illustrating the flow of data and the integration of various AWS services to create a seamless customer experience. The diagram is available as a PDF file in the “Architecture” folder of the project.
+The architecture diagram provides a comprehensive view of the entire project, illustrating the flow of data and the integration of various AWS services to create a seamless customer experience. 
+
+[AWS-Architecture.pdf](https://github.com/user-attachments/files/16603848/AWS-Architecture.pdf)
+
 
 # Key Components
 
