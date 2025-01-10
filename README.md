@@ -1,5 +1,5 @@
 # AmazonConnect-Personal
-Intervision Project: Amazon Connect Integration with AWS Back-End Services
+Amazon Connect Integration with AWS Back-End Services
 
 # Project Overview
 
@@ -140,4 +140,4 @@ Considerations
 
 # Conclusion
 
-The Intervision Project showcases the integration of Amazon Connect with AWS services to build a powerful, scalable, and secure contact center. The architecture is designed to be future-proof, with numerous opportunities for enhancements and expansion based on client needs. This project serves as a testament to the potential of AWS services in creating sophisticated, enterprise-level solutions.
+This project showcases the integration of Amazon Connect with AWS services to build a powerful, scalable, and secure contact center. The architecture is designed to be future-proof, with numerous opportunities for enhancements and expansion based on client needs. This project serves as a testament to the potential of AWS services in creating sophisticated, enterprise-level solutions.
